@@ -1,5 +1,7 @@
 # Predicting Yelp Star Ratings with RoBERTa
 
+**Live dashboard:** https://arthunya.github.io/yelp-star-rating-roberta/
+
 Fine-tuning `roberta-base` to predict the 1 to 5 star rating of a Yelp review, then testing where it fails. The project compares the transformer with a TF-IDF + logistic regression baseline, runs an error analysis on simple linguistic flags, and exports a segment table for a dashboard.
 
 ![Row-normalized confusion matrix of RoBERTa predictions](results/figures/fig_confusion_matrix.png)
