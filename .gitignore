@@ -1,0 +1,10 @@
+# Large or license-restricted files (contain Yelp review text)
+outputs/
+*.db
+manual_error_review*.csv
+test_predictions.csv
+# Model checkpoints and caches
+outputs/checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+.venv/

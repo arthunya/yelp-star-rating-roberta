@@ -1,0 +1,39 @@
+{
+  "seed": 44,
+  "dry_run": false,
+  "model": "FacebookAI/roberta-base",
+  "max_len": 256,
+  "epochs": 2,
+  "learning_rate": 2e-05,
+  "train_batch": 16,
+  "n_train": 20000,
+  "n_val": 2000,
+  "n_test": 5000,
+  "train_minutes": 4.19,
+  "metrics": {
+    "tfidf_logreg": {
+      "accuracy": 0.5682,
+      "macro_f1": 0.5655302634355202,
+      "mae_stars": 0.532,
+      "within_one_star": 0.9266,
+      "macro_f1_ci95": [
+        0.551995847132606,
+        0.5794591903320714
+      ]
+    },
+    "roberta_base": {
+      "accuracy": 0.6652,
+      "macro_f1": 0.6648167422180848,
+      "mae_stars": 0.3658,
+      "within_one_star": 0.9764,
+      "macro_f1_ci95": [
+        0.65206845062526,
+        0.6777702880698794
+      ]
+    }
+  },
+  "transformers": "5.23.0",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "python": "3.12.10"
+}

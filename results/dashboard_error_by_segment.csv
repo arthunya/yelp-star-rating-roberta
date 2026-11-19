@@ -1,0 +1,16 @@
+segment,group,n,accuracy,mean_abs_star_err
+True star rating,1,1000,0.755,0.283
+True star rating,2,1000,0.635,0.39
+True star rating,3,1000,0.532,0.51
+True star rating,4,1000,0.578,0.437
+True star rating,5,1000,0.803,0.225
+Length quartile,Q1 shortest,1250,0.65,0.395
+Length quartile,Q2,1250,0.664,0.358
+Length quartile,Q3,1250,0.69,0.325
+Length quartile,Q4 longest,1250,0.638,0.398
+Contrast words,has contrast word,3134,0.633,0.395
+Contrast words,no contrast word,1866,0.706,0.325
+Negation,has negation,3818,0.66,0.369
+Negation,no negation,1182,0.662,0.37
+Truncated at 256 tokens,truncated,1009,0.628,0.414
+Truncated at 256 tokens,within limit,3991,0.669,0.358
